@@ -1,0 +1,45 @@
+{
+  "plugins": {
+    "canola.nvim": {
+      "rev": "3a2a1c8a9ce775e435c7d73f91e5df664b037878",
+      "src": "https://github.com/barrettruth/canola.nvim",
+      "version": "'canola'"
+    },
+    "fzf-lua": {
+      "rev": "64590411e6cf3d603d1e1bdad3a3d051f2f5a91a",
+      "src": "https://github.com/ibhagwan/fzf-lua"
+    },
+    "gruvbox-material.nvim": {
+      "rev": "ee006c962780358b8f03eaa918a3139b7c6f0d81",
+      "src": "https://github.com/f4z3r/gruvbox-material.nvim"
+    },
+    "guard-collection": {
+      "rev": "edf6c86c06badc972964dadb7fd469022690cbf0",
+      "src": "https://github.com/nvimdev/guard-collection"
+    },
+    "guard.nvim": {
+      "rev": "addb8d2f40662b8b62d60dd7d18f503beb2332e7",
+      "src": "https://github.com/nvimdev/guard.nvim"
+    },
+    "kanagawa.nvim": {
+      "rev": "8ad3b4cdcc804b332c32db8f9743667e1bb82b99",
+      "src": "https://github.com/rebelot/kanagawa.nvim"
+    },
+    "nvim": {
+      "rev": "426dbebe06b5c69fd846ceb17b42e12f890aedf1",
+      "src": "https://github.com/catppuccin/nvim"
+    },
+    "solarized.nvim": {
+      "rev": "a8085e29883ddcfb39bd46197eb32ef00df05368",
+      "src": "https://github.com/maxmx03/solarized.nvim"
+    },
+    "sonokai": {
+      "rev": "b023c5280b16fe2366f5e779d8d2756b3e5ee9c3",
+      "src": "https://github.com/sainnhe/sonokai"
+    },
+    "tree-sitter-manager.nvim": {
+      "rev": "33a94d022e3a5a500d878b784ba7fec61559c70a",
+      "src": "https://github.com/romus204/tree-sitter-manager.nvim"
+    }
+  }
+}
