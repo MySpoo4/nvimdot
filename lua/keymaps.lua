@@ -15,3 +15,18 @@ mapkey("<leader>ol", function()
   vim.opt.linebreak = not vim.o.linebreak
   vim.notify(string.format("Linebreak: %s", tostring(vim.o.linebreak)))
 end, "n", { desc = "Toggle Linebreak" })
+
+-- pack keymaps
+mapkey("<leader>pu", vim.pack.update, "n", { desc = "Update all plugins" })
+
+mapkey("<leader>pd", function()
+  vim.pack.del(vim
+    .iter(vim.pack.get())
+    :filter(function(x)
+      return not x.active
+    end)
+    :map(function(x)
+      return x.spec.name
+    end)
+    :totable())
+end, "n", { desc = "Delete inactive plugins" })
