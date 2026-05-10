@@ -24,7 +24,7 @@ local config = function()
 
   local ft = require("guard.filetype")
 
-  ft("lua"):fmt("stylua"):lint("luacheck")
+  ft("lua"):fmt("stylua")
 end
 
 load_plugin({
