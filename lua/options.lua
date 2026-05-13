@@ -38,6 +38,9 @@ vim.opt.smartindent = true
 vim.opt.autoindent = true
 vim.opt.wrap = false
 
+vim.opt.scrolloff = 5
+vim.opt.sidescrolloff = 5
+
 -- Search
 vim.opt.incsearch = true
 vim.opt.ignorecase = true

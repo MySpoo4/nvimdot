@@ -25,6 +25,7 @@ local config = function()
   local ft = require("guard.filetype")
 
   ft("lua"):fmt("stylua")
+  ft("rust"):fmt("rustfmt")
 end
 
 load_plugin({
